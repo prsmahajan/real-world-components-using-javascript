@@ -20,5 +20,5 @@ const legolas = glorFindel.previousElementSibling
 console.log(legolas)
 
 const nazgul = characters.querySelector('.enemies').children[1]
-const closest = nazgul.closest('.characters')
-console.log(closest)
+const upwardTraverse = nazgul.closest('.characters')
+console.log(upwardTraverse)
